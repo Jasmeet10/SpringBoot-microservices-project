@@ -1,3 +1,12 @@
-SpringBoot-Microservices
-Language - Java
-Framework - SpringBoot
+Summary
+
+The SpringBoot-microservices-project is a Maven Project using Discovery-Server(Eureka)
+
+Dependencies Used: Web, Spring cloud, and Eureka discovery client
+
+Code Specifications:
+
+1. In total there are 3 different Spring boot services to perform different tasks and combined they provide the movie-API, which contains the movie id along with the description and ratings of the movie.
+2. 1 service gives the user and the movie's id and ratings, whereas another service is responsible for the movie IDs and descriptions.
+3. As soon as a new user enters the movie Id, API provides the ratings for the movies and a list of movies related to the user Id.
+4. Eureka's discovery client is used to establish the communication between the multiple spring boot application.
